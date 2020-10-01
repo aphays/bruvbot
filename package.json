@@ -1,8 +1,9 @@
 {
   "name": "femboybot",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "perfect femboy discord gf",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
