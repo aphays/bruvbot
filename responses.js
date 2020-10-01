@@ -20,10 +20,11 @@ module.exports = {
     }}
   }
 },
-  respondToDM: function(message, phrase, response) {
+respondToDM: function(message, phrase, response) {
     
-    if (message.channel instanceof Discord.DMChannel) {}
-      message.content.includes("hey"); 
-      message.channel.send("hi :3");
+  if (message.channel instanceof Discord.DMChannel) {
+    if(message.content.includes("hey"))
+    message.channel.send("hi :3");
   }
+}
 }
