@@ -9,9 +9,15 @@ module.exports = {
     }{
     if (message.content.includes("faggot")) {
         message.channel.send("yeah"); 
+    }
+    if (message.content.includes("rule")) {
+      message.channel.send("anarchy"); 
     }{
     if (message.content.includes("!!!")) {
       message.channel.send("❗❗❗"); 
+    }}{
+      if (message.content.includes("kanye")) {
+        message.react("🏃‍♂️"); 
     }}{
       if (message.content.startsWith("women") || message.content.startsWith("woman")) {
         message.channel.send("https://media.discordapp.net/attachments/691118711486152705/761283953729863700/Eg-B1hwXcAAHguZ.jpg?width=490&height=524"); 
