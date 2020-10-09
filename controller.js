@@ -1,3 +1,5 @@
+//test
+
 module.exports = {
     filterMessage: function (message) {
         if (message.author.bot) { return }
